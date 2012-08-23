@@ -2,6 +2,7 @@
 layout: post
 title: "Hello RStudio  World"
 description: "Thsi is me just figuring out how this works"
+published: true
 category: 
 tags: []
 ---
