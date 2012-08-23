@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello Second  World"
-description: ""
+description: "Thsi is me just figuring out how this works"
 category: 
 tags: []
 ---
