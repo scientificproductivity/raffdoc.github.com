@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello RStudio  World"
+title: "First RStudio 'Hello World' message"
 description: "Thsi is me just figuring out how this works"
 category: 
 tags: []
@@ -29,4 +29,5 @@ plot(cars)
 
 ```{r fig.width=7, fig.height=6}
 plot(cars,col="blue")
+abline(lm(cars$dist~cars$speed),col="red")
 ```
