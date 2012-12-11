@@ -20,12 +20,9 @@ tagline: Reproducible research in biomedical sciences
 [More blog posts](/blog.html)
     
 ## More to Come
+I am planning to post several tips on R programming in biomedical research regarding reproducibility. 
+Stay tuned.
 
 
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
