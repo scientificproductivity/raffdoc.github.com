@@ -42,3 +42,11 @@ plot(cars)
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
+
+
+```r
+plot(cars, col = "blue")
+```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+

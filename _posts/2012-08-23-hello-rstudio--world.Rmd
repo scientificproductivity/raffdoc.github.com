@@ -26,3 +26,7 @@ You can also embed plots, for example: thsi is good example
 plot(cars)
 ```
 
+
+```{r fig.width=7, fig.height=6}
+plot(cars,col="blue")
+```
