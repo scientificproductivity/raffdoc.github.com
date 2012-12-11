@@ -31,3 +31,52 @@ plot(cars)
 plot(cars,col="blue")
 abline(lm(cars$dist~cars$speed),col="red")
 ```
+
+
+
+```{r }
+library(likert)
+data(pisana)
+items <- pisana[,c(
+  'ST24Q01', #Only if I have to
+	'ST24Q02', #Favourite hobbies
+	'ST24Q03', #Talk about books
+	'ST24Q04', #Hard to finish
+	'ST24Q05', #Happy as present
+	'ST24Q06', #Waste of time
+	'ST24Q07', #Enjoy library
+	'ST24Q08', #Need information
+	'ST24Q09', #Cannot sit still
+	'ST24Q10', #Express opinions
+	'ST24Q11'  #Exchange
+	)]
+names(items) <- c("I read only if I have to.",
+		"Reading is one of my favorite hobbies.",
+		"I like talking about books with other people.",
+		"I find it hard to finish books.",
+		"I feel happy if I receive a book as a present.",
+		"For me, reading is a waste of time.",
+		"I enjoy going to a bookstore or a library.",
+		"I read only to get information that I need.",
+		"I cannot sit still and read for more than a few minutes.",
+		"I like to express my opinions about books I have read.",
+		"I like to exchange books with my friends")
+for(i in 1:ncol(items)) {
+	items[,i] <-  factor(items[,i], levels=c(1,2,3,4), ordered=TRUE,
+		labels=c('Strongly Disagree', 'Disagree', 'Agree', 'Strongly Agree'))
+}
+l <- likert(items, grouping=pisana$CNT)
+```
+Plot the results.
+```{r,warning=FALSE}
+plot(l, centered = TRUE)
+```
+
+
+
+```{r }
+options(width = 120)
+summary(l)
+```
+
+
