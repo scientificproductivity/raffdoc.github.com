@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Resources"
-description: "Different useful links on scientific programming and not only."
+title: "Research"
+description: "Everything connected to research"
 ---
 {% include JB/setup %}
 	Publications

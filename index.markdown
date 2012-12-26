@@ -23,8 +23,7 @@ tagline: Reproducible research in biomedical sciences
 I am planning to post several tips on R programming in biomedical research regarding reproducibility. 
 Stay tuned.
 ## How to use custom domain name to point my github.com pages?
-I am trying to figure out how to point domain (like [Scientific Productivity](www.scientificproductivity.com)) to my github pages.
-
+I use with success a custom domain (like [Scientific Productivity](www.scientificproductivity.com)) to point my github.com pages. 
 
 
 
