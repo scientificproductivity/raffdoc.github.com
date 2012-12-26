@@ -5,8 +5,7 @@ description: "Everything connected to research"
 ---
 {% include JB/setup %}
 
-#####
-Publications from PubMed.
+##### Publications from PubMed.
 	
 	
 1. [Aortic arch reconstruction in newborns with an autologous pericardial patch: contemporary results.](http://www.ncbi.nlm.nih.gov/pubmed/23223671)
