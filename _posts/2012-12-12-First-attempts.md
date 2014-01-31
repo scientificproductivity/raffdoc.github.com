@@ -21,3 +21,4 @@ rug(a)
 ![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
 
+This is just an update for the test purposes. 
